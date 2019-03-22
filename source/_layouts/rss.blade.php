@@ -1,4 +1,5 @@
-<?xml version="1.0"?>
+# had to comment this out on local instance to be able to run. 
+
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>{{ $page->siteName }}</title>
     <link href="{{ $page->baseUrl }}{{ $page->site_path }}" />

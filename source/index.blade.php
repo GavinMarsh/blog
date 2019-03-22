@@ -15,7 +15,7 @@
         alt="Matt Woods"
         class="inline-flex rounded-full h-32 w-32 bg-contain mx-auto">
 
-    <h1 >I'm Matt: A marketer + developer who grows useful tools, honestly.</h1>
+    <h1 >I'm Gavin: A marketer + developer who grows useful tools, honestly.</h1>
 
     <p>Currently, I run inbound marketing at <a href="https://tailwindapp.com">Tailwind</a>.</p>
 
