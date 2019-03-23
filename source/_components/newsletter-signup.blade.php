@@ -2,9 +2,9 @@
 
     <div class="flex flex-col items-center text-center max-w-lg">
 
-    <h2 class="text-3xl mb-0">Get my best bi-weekly insights on software + marketing</h2>
-    <p class="text-center text-lg mb-0">Can I send you a collection of my most useful & interesting finds about growth, software & making stuff that matters? I'll also link to any new articles, videos, or podcast episodes.</p>
-    
+    <h2 class="text-3xl mb-0">Get my best monthly insights on sales + software</h2>
+    <p class="text-center text-lg mb-0">Can I send you monthly useful & interesting finds about personal growth, enterprise-sales, software & making stuff that matters? I'll also link to any new articles or projects.</p>
+
     <form
     class="w-full max-w-md mt-8"
     action="https://mattwoodscreative.us10.list-manage.com/subscribe/post"
@@ -53,5 +53,3 @@
         window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
     </script>
 @endpush
-
-

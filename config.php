@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'baseUrl' => 'http://mattwoods-blog.test/',
+    'baseUrl' => 'http://localhost:3000/',
     'production' => false,
-    'siteName' => 'Matt Woods',
+    'siteName' => 'Gavin Marsh',
     'siteDescription' => 'Crazy about good books, growing businesses through honest marketing, and making everyone around me feel loved. Join me on my journey.',
-    'siteAuthor' => 'Matt Woods',
+    'siteAuthor' => 'Gavin Marsh',
 
     // collections
     'collections' => [
         'posts' => [
-            'author' => 'Matt Woods', // Default author, if not provided in a post
+            'author' => 'Gavin Marsh', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{filename}',
         ],

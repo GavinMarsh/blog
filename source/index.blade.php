@@ -11,17 +11,17 @@
 
 <section class="flex-col justify-center items-center text-center mb-20">
 
-    <img src="/assets/img/matt.jpg"
-        alt="Matt Woods"
+    <img src="/assets/img/gavin.jpg"
+        alt="Gavin Marsh"
         class="inline-flex rounded-full h-32 w-32 bg-contain mx-auto">
 
-    <h1 >I'm Gavin: A marketer + developer who grows useful tools, honestly.</h1>
+    <h1 >I'm Gavin: Sales manager + developer of useful tools, honestly.</h1>
 
-    <p>Currently, I run inbound marketing at <a href="https://tailwindapp.com">Tailwind</a>.</p>
+    <p>Currently, I run gamification sales at <a href="https://www.noblesystems.com/">Noble Systems</a>.</p>
 
-    <p>I'm co-founding <a href="https://okcindiehackers.com/">OKC Indie Hackers</a> to help build indie software that makes the world better.</p>
+    <p>I'm co-founding <a href="http://crypto-mars.com">Crypto Mars</a> an NPO to help educate new investors in the wild-west market of crypto.</p>
 
-    <p>I publish <a href="/blog">articles</a> to document what I'm learning and you can always get my best stuff by signing up for 1-2 emails / month below.</p>
+    <p>I publish <a href="/blog">articles</a> to document what I'm learning and you can always get my best stuff by signing up for 1 email per month below.</p>
 
     {{-- TODO: Convert into partial --}}
     <div class="flex items-center justify-center mx-auto pt-4">
@@ -47,7 +47,7 @@
             </a>
         </div>
         <div class="px-1 mx-4">
-            <a href="https://www.linkedin.com/in/matthewchristopherwoods" target="_blank" rel="noopener">
+            <a href="https://www.linkedin.com/in/mrgavinmarsh/" target="_blank" rel="noopener">
                 <svg width="25" height="24" viewBox="0 0 25 24" xmlns="http://www.w3.org/2000/svg" class="fill-current w-4 hover:text-blue-darkest">
                     <path class="social-icon" d="M1.105 7.696h4.678v16.302H1.105V7.696zm2.22-2.04H3.29C1.6 5.657.5 4.41.5 2.833.5 1.222 1.63 0 3.357 0c1.726 0 2.787 1.22 2.82 2.828 0 1.578-1.094 2.83-2.852 2.83zM24.5 24h-5.304v-8.438c0-2.208-.83-3.714-2.655-3.714-1.394 0-2.17 1.016-2.532 1.998-.135.35-.114.84-.114 1.332V24H8.64s.067-14.946 0-16.304h5.254v2.558c.31-1.118 1.99-2.715 4.67-2.715 3.324 0 5.936 2.346 5.936 7.394V24z" fill-rule="evenodd"></path>
                 </svg>
