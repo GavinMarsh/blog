@@ -13,73 +13,40 @@
         <p>A few recent projects I've worked on and learned from recently.</p>
 
         <div class="my-8">
-          <h2 class="mb-2">Spruce</h2>
-          <p>A SaaS app I'm validating and developing during the Spring 2019 cohort of <a href="https://okcindiehackers.com/">OKC Indie Hackers</a>.</p>
-        </div>
-
-        <div class="my-8">
-          <h2 class="mb-2">martech-api</h2>
-            <a 
-            href="https://github.com/matopher/martech-api"
-            class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 my-2 px-3 pt-px"
-            >
-            Repo
-            </a>
+          <h2 class="mb-2">reddit-top-posts</h2>
+          <a
+          href="http://gavinmarsh.co.uk/"
+          class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 my-2 px-3 pt-px"
+          >
+          App
+          </a>
           <p>
-            An API written in Javascript for Scott Brinker's infamous Martech 5000 infographic.</p>
-        </div>
-
-        <div class="my-8">
-          <h2 class="mb-2">TwentyOne</h2>
-            <a 
-            href="https://github.com/matopher/mc-hammerhead-shark"
-            class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 my-2 px-3 pt-px"
-            >
-            Repo
-            </a>
-          <p>
-              A mobile app to kickstart and reward strong habits written in Javascript using Cordova. This was my first team project from OK Coders.
+              A Flask web-app that uses Reddits api to collect top weekly posts of my faverioute topics.
+              The application uses a MVC setup. The model being a MongoDB Atlas collection for data storage,
+              the view is handled but the Jinja2 library with Flask and the Controller is pure python code.
           </p>
         </div>
 
         <div class="my-8">
-          <h2 class="mb-2">Pinboard Reader</h2>
-            <a 
-            href="https://github.com/matopher/pinboard"
+          <h2 class="mb-2">rex</h2>
+            <a
+            href="http://107.172.143.209:9000/"
             class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 my-2 px-3 pt-px"
             >
-            Repo
+            Repo/App
             </a>
           <p>
-                A custom Pinboard reader for my saved links using Tailwind CSS for styling and Laravel.
+              This is web-app to aid in enterprise-sales. The application is called
+              The Referral Exchange (rex for short). It is a platform for sales
+              professionals to share meeting referals.
           </p>
         </div>
-
-        <div class="my-8">
-          <h2 class="mb-2">Spotter</h2>
-            <a 
-            href="https://github.com/matopher/spotter"
-            class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 my-2 px-3 pt-px"
-            >
-            Repo
+        <p class="text-3xl">
+            <a
+            href="/contact"
+            class="ml-6 text-blue-dark hover:text-blue-darker {{ $page->isActive('/contact') ? 'active text-blue-dark' : '' }}">
+            &#8594; Need help on a project?
             </a>
-          <p>
-                A simple marketing analytics dashboard built with Laravel.
-          </p>
-        </div>
-
-        <div class="my-8">
-          <h2 class="mb-2">random-quote-generator</h2>
-            <a 
-            href="https://github.com/matopher/random-quote-generator"
-            class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 my-2 px-3 pt-px"
-            >
-            Repo
-            </a>
-          <p>
-                A React app that pulls in random quotes via an API.
-          </p>
-        </div>
-
-      </div>
+        </p>
+    </div>
 @endsection

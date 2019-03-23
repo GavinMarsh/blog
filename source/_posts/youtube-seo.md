@@ -3,8 +3,8 @@ extends: _layouts.post
 section: content
 title: Get Your Video Ranked in YouTube Search With These Simple SEO Techniques
 date: 2017-07-12
-description: YouTube = the world's 2nd largest search engine. Want to rank number-one? Start with these quick wins to claim the top spot. 
-categories: [video]
+description: YouTube = the world's 2nd largest search engine. Want to rank number-one? Start with these quick wins to claim the top spot.
+categories: [finance]
 cover_image: https://images.unsplash.com/photo-1521302200778-33500795e128?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
 ---
 

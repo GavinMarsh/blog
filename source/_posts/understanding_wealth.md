@@ -2,10 +2,10 @@
 extends: _layouts.post
 section: content
 title: Understanding Wealth
-date: 2018-03-07
+date: 2018-02-07
 cover_image: /assets/img/posts/understanding_wealth/feature.png
 description: Does the idea of "investing" make you uneasy? Good news. It doesn't have to!
-categories: [marketing]
+categories: [finance]
 featured: true
 ---
 “Why do the rich keep getting richer?”
