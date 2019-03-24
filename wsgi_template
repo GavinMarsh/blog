@@ -1,0 +1,52 @@
+Listen 9000
+<VirtualHost *:9000>
+        WSGIDaemonProcess flaskr display-name=%{GROUP}
+        WSGIProcessGroup flaskr
+
+        ServerName 107.172.143.209
+        WSGIScriptAlias /  /var/www/flaskr/flaskr.wsgi
+        <Directory /var/www/flaskr/flaskr/>
+                   Order allow,deny
+                   Allow from all
+        </Directory>
+        Alias /static /var/www/flaskr/flaskr/static
+        <Directory /var/www/flaskr/flaskr/static/>
+                   Order allow,deny
+                   Allow from all
+        </Directory>
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        LogLevel info
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+Listen 8000
+<VirtualHost *:8000>
+        WSGIDaemonProcess reddit display-name=%{GROUP}
+        WSGIProcessGroup reddit
+
+        ServerName 107.172.143.209
+        WSGIScriptAlias /  /var/www/reddit/reddit.wsgi
+        <Directory /var/www/reddit/reddit/>
+                Order allow,deny
+                Allow from all
+        </Directory>
+        Alias /static /var/www/reddit/reddit/static
+        <Directory /var/www/reddit/reddit/static/>
+                Order allow,deny
+                Allow from all
+        </Directory>
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        LogLevel info
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+Listen 80
+    <VirtualHost *:80>
+        ServerName gavinmarsh.co.uk
+        ServerAlias  www.gavinmarsh.co.uk
+        DocumentRoot /var/www/blog/build_production
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
