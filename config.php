@@ -3,8 +3,6 @@
 return [
     // uncomment for deveopment
     'baseUrl' => 'http://localhost:3000/',
-    // uncomment for production
-    //'baseUrl' => 'http://gavinmarsh.co.uk/',
     'production' => false,
     'siteName' => 'Gavin Marsh',
     'siteDescription' => 'Crazy about good books, growing businesses through honest marketing, and making everyone around me feel loved. Join me on my journey.',
