@@ -10,7 +10,7 @@ cover_image: /assets/img/posts/learn-to-code/feature.jpeg
 
 I talked to a developer last week who has been teaching kids to code in an after school program.
 
-His teaching secret?
+His teaching secret??
 
 Teach using this format: **Motivate > Set a Goal > Work through the problem together.**
 

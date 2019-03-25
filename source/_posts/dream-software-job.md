@@ -7,7 +7,7 @@ cover_image: /assets/img/dream-software-job.png
 description: In this talk, Matt unpacks the 3 cornerstone habits that paved the way to consistently grow as a software developer, balloon his professional network, easily share the best takeaways to begin building an audience — and of course, get his dream software job.
 categories: [software]
 ---
-😳 Absolutely unreal... 
+😳 Absolutely unreal...
 
 My recent talk on "How I Landed My Dream Software Job in 12 Months" was picked up by a super popular YouTube channel with 500K+ subscribers!
 
@@ -17,9 +17,9 @@ I hope it's useful to anyone who wants to level-up their coding skills. 🙏🏻
 
 ## Quick Video Overview
 
-Twelve months ago, Matt Woods was just wrapping up his first developer conference. 
+Twelve months ago, Matt Woods was just wrapping up his first developer conference.
 
-Now, he's shipping real code at [Tailwind](https://tailwindapp.com), an OKC software SaaS startup. 
+Now, he's shipping real code at [Tailwind](https://tailwindapp.com), an OKC software SaaS startup.
 
 In this talk, Matt unpacks the 3 cornerstone habits that paved the way to consistently grow as a software developer, balloon his professional network, easily share the best takeaways to begin building an audience — and of course, get his dream software job.
 
