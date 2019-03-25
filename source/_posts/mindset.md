@@ -5,7 +5,7 @@ title: How to build Capital series - Mindset
 date: 2018-02-07
 cover_image: /assets/img/posts/mindset/feature.png
 description: Does the idea of "investing" make you uneasy? Good news. It doesn't have to!
-categories: [finance}
+categories: [finance]
 ---
 <h1>Part 2</h1>
 
