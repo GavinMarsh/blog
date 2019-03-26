@@ -1,9 +1,9 @@
 ---
 extends: _layouts.post
 section: content
-title: How to Setup Multiple Flask Web-Applications Using WSGI and Apache2 server.
+title: How to Setup Multiple Flask Web-Apps on an Apache2 Server Using WSGI.
 date: 2018-11-20
-cover_image: /assets/img/dream-software-job.png
+cover_image: /assets/img/posts/multiple_flask_apps/feature.jpeg
 description: In this talk, Matt unpacks the 3 cornerstone habits that paved the way to consistently grow as a software developer, balloon his professional network, easily share the best takeaways to begin building an audience — and of course, get his dream software job.
 categories: [software]
 ---
