@@ -30,7 +30,7 @@
         <div class="my-8">
           <h2 class="mb-2">rex</h2>
             <a
-            href="http://gavinmarsh:9000/"
+            href="http://gavinmarsh.co.uk:9000/"
             class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 my-2 px-3 pt-px"
             >
             Repo/App
