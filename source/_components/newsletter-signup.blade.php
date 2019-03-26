@@ -7,7 +7,7 @@
 
     <form
     class="w-full max-w-md mt-8"
-    action="https://mattwoodscreative.us10.list-manage.com/subscribe/post"
+    action="https://mattwoodscreative.us10.list-manage.com/subscribe/post_this_needs_to_be_updated"
     method="post"
   >
     <div class="block md:flex items-center rounded-lg shadow-none md:shadow-lg bg-tranparent md:bg-white">

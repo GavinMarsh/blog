@@ -9,51 +9,23 @@
 
 @section('body')
     <div>
-        <h1>Is Skydiving dangerous?</h1>
-        <p>blah blah blah </p>
-        <p>blah blah blah</p>
+        ##Is Skydiving actually dangerous?
+
+        </p>some text<p>
+
+
         <iframe class="my-4 block" width="560" height="315" src="https://www.youtube.com/embed/PzoH8enWdZo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <a href="https://app.managedmissions.com/MyTrip/woods" class="mt-4 text-3xl underline">Go here to give online &rarr;</a>
+        </p>some text<p>
 
-        <h2>blah blah blah</h2>
-        <p>blah blah blah</p>
 
-        <h2>blah blah blah</h2>
+        <iframe class="my-4 block" width="560" height="315" src="https://youtu.be/nQvdpFguOvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <img src="/assets/img/peru-1.png" alt="How are we spending our time?" />
+        </p>some text<p>
 
-        <ul>
-            <li>blah blah blah</li>
-            <li>blah blah blah</li>
-            <li>blah blah blah</li>
-            <li>blah blah blah</li>
-        </ul>
+        If you would like to know more on how to get involved then drop me an email <a href="mailto:gm@gavinmarsh.co.uk?subject=Skydiving Skydiving questions">email me</a>
 
-        <h2>blah blah blah</h2>
-        <h3>1) blah blah blah</h3>
-        <p>blah blah blah:</p>
-        <ul>
-          <li>blah blah blah</li>
-          <li>blah blah blah</li>
-          <li>blah blah blah</li>
-        </ul>
-
-        <h3>2) blah blah blah</h3>
-        <p>blah blah blah</p>
-        <p>blah blah blah <a href="mailto:mw@mattwoods?subject=Peru Trip">email us</a> blah blah blah</p>
-
-        <a href="https://app.managedmissions.com/MyTrip/woods" class="mt-4 text-3xl underline">blah blah blah &rarr;</a>
-
-        <h2>blah blah blah</h2>
-        <p>blah blah blah.</p>
-
-        <p>blah blah blah</p>
-
-        <p>blah blah blah</p>
-
-        <p>- Gavin Marsh</p>
-
-        @include('_components.newsletter-signup')
+    </div>
+    @include('_components.newsletter-signup')
 
 @endsection

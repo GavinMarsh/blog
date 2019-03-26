@@ -1,7 +1,7 @@
 ---
 extends: _layouts.post
 section: content
-title: How to build Capital series - Mindset
+title: How to Build Capital Part 2 - Mindset
 date: 2018-02-07
 cover_image: /assets/img/posts/mindset/feature.png
 description: Does the idea of "investing" make you uneasy? Good news. It doesn't have to!

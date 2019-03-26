@@ -1,7 +1,7 @@
 ---
 extends: _layouts.post
 section: content
-title: How to build Capital series - Money - Savings - Capital
+title: How to Build Capital Part 1 - Money - Savings - Capital
 date: 2018-02-07
 cover_image: /assets/img/posts/money_savings_capital/feature.png
 description: Does the idea of "investing" make you uneasy? Good news. It doesn't have to!
