@@ -16,7 +16,7 @@
     to get to know each other better.
     </p>
     <p class="text-3xl">
-      <a href="mailto:mw@mattwoods.io">
+      <a href="mailto:gm@gavinmarsh.co.uk">
         &#8594; Shoot me an email.
       </a>
     </p>
