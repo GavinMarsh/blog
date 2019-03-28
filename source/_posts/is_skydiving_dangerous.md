@@ -53,8 +53,7 @@ categories: [hobby]
 
 <p>Often known as ‘fun jumps’, a standard skydive is a purely recreational experience done for the rush of free fall and majestic views while soaring to the ground. There are plenty of skydiving clubs around where you can meet like-minded people and share the fun of jumping.</p>
 
-<object width="742.4" height="417.6" data="https://youtu.be/nQvdpFguOvc" type="application/x-shockwave-flash"><param name="src" value="https://youtu.be/PzoH8enWdZo" /></object>
-
+<iframe class="my-4 block" width="742.4" height="417.6" src="https://youtu.be/nQvdpFguOvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h2>Tandem Skydiving</h2>
 
@@ -70,7 +69,7 @@ categories: [hobby]
 
 <p>This is me doing some relative work during a refresher (fun jump) with a friend.</p>
 
-<object width="742.4" height="417.6" data="https://youtu.be/nQvdpFguOvc" type="application/x-shockwave-flash"><param name="src" value="https://youtu.be/nQvdpFguOvc" /></object>
+<iframe class="my-4 block" width="742.4" height="417.6" src="https://youtu.be/nQvdpFguOvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h2>Freeflying</h2>
 
@@ -111,7 +110,7 @@ categories: [hobby]
 
 <p>Here's me with an instructor working on my freeflying. </p>
 
-<object width="742.4" height="417.6" data="https://youtu.be/EzMkg0hUmYo" type="application/x-shockwave-flash"><param name="src" value="https://youtu.be/EzMkg0hUmYo" /></object>
+<iframe class="my-4 block" width="742.4" height="417.6" src="https://youtu.be/EzMkg0hUmYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h2>Summary</h2>
 
