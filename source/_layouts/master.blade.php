@@ -96,7 +96,7 @@
 
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
 
-            <a href="/go" target="_blank" rel="noopener">Sky Diving</a>
+            <a href="/go" target="_blank" rel="noopener">Love Death + Robots</a>
 
             <div class="flex items-center justify-center mx-auto pt-4">
                 <div class="px-1 mx-4">
