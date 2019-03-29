@@ -15,7 +15,7 @@
         alt="Gavin Marsh"
         class="inline-flex rounded-full h-32 w-32 bg-contain mx-auto">
 
-    <h1 >I'm Gavin: Sales manager + developer of useful tools, honestly.</h1>
+    <h1 >I'm Gavin: Sales manager + developer of useful tools.</h1>
 
     <p>Currently, I run gamification sales at <a href="https://www.noblesystems.com/">Noble Systems</a>.</p>
 
