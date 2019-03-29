@@ -7,8 +7,6 @@ description: Want to code but not sure how to start? Use this tried-and-true fra
 categories: [software]
 cover_image: /assets/img/posts/amazon_lightsail/feature.png
 ---
-<h1>How to Deploy a Flask application on Amazon Lightsail, using Apache2, WSGI and Flask.</h1>
-
 <h1>Software</h1>
 
 <h2>Introduction</h2>
@@ -25,7 +23,7 @@ cover_image: /assets/img/posts/amazon_lightsail/feature.png
 
 <p>Once you have setup your AWS account, log in and head over to there Lightsail //https://aws.amazon.com/lightsail// website. </p>
 
-<h2>Step ? - Create an Ubuntu 16.04 Lightsail Instance</h2>
+<h2>Step Two - Create an Ubuntu 16.04 Lightsail Instance</h2>
 
 <p>Click on the 'Create Instance' tab and select 'Linux/Unix' tab, then underneath click 'OS Only' then select 'Ubuntu 16.04 LTS'.
 //add jpg//</p>
@@ -36,7 +34,7 @@ cover_image: /assets/img/posts/amazon_lightsail/feature.png
 <p>Then finally scroll down the page and rename your Instance to 'Flask<em>Lightsail</em>Depoloyment' and click on the 'Create instance' button.
 //add jpg//</p>
 
-<p>## Step ? - create static IP to publicly access your Lightsail instance.</p>
+<p>## Step Three - create static IP to publicly access your Lightsail instance.</p>
 
 <p>Click the 'Home' button and then click on the 'Networking' tab and then click on the 'Create static IP' tab.
  //add jpg//</p>
@@ -54,7 +52,7 @@ cover_image: /assets/img/posts/amazon_lightsail/feature.png
 <p>From the management screen you will be able to see your Public and Private Ip addresses, scroll down the page and you will see your Fire Wall section. Set your Fire Wall preferences for testing by inputing the below settings. This will allow all internet traffic to reach your Lightsail instance.
 //add jpg//</p>
 
-<h2>Step ? - Setting up SSH</h2>
+<h2>Step Four - Setting up SSH</h2>
 
 <p>Finally, we will install our development stack by remotely logging onto our Lightsail instance via SSH. To do this we need to download our SSH private keypair.
 //add jpg//</p>
@@ -97,7 +95,7 @@ Use the chmod command to make sure your private key file is not publicly viewabl
 
 <p>You should then see the welcome screen for your instance and you are now connected to your Amazon Lightsail Ubuntu 16.04 virtual machine in the cloud.</p>
 
-<h2>Step ? - Install Apache2</h2>
+<h2>Step Five - Install Apache2</h2>
 
 <p>Update the apt package.</p>
 
@@ -133,7 +131,7 @@ Use the chmod command to make sure your private key file is not publicly viewabl
 Example:
 <code>ServerName 3.8.237.222</code></p>
 
-<h2>Step 3 - Install Python3.7.1</h2>
+<h2>Step Six - Install Python3.7.1</h2>
 
 <p>Update apt install package.</p>
 
@@ -205,7 +203,7 @@ Unpact the tar file.
 
 <p><code>sudo /etc/init.d/apache2 restart</code></p>
 
-<h2>Step ? - Prepare server for new 'Hello World' FlaskApp.</h2>
+<h2>Step Seven - Prepare server for new 'Hello World' FlaskApp.</h2>
 
 <p>Deactivate default apache2 website.
 <code>sudo a2dissite 000-default.conf</code></p>
@@ -218,7 +216,7 @@ Unpact the tar file.
 
 <p><code>rm 000-default.conf</code></p>
 
-<h2>Step ? - Create a Flask application</h2>
+<h2>Step Eight - Create a Flask application</h2>
 
 <p>Change directory into Ubuntu's standard Website directory.
 <code>cd /var/www</code></p>
