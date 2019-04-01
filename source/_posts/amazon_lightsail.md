@@ -2,7 +2,7 @@
 extends: _layouts.post
 section: content
 title: How to Deploy a Flask application on Amazon Lightsail, using Apache2, WSGI and Flask.
-date: 2018-12-27
+date: 2019-03-29
 description: Want to code but not sure how to start? Use this tried-and-true framework to get started — even if programming seems scary.
 categories: [software]
 cover_image: /assets/img/posts/amazon_lightsail/feature.png
@@ -25,40 +25,40 @@ cover_image: /assets/img/posts/amazon_lightsail/feature.png
 
 <h2>Step Two - Create an Ubuntu 16.04 Lightsail Instance</h2>
 
-<p>Click on the 'Create Instance' tab and select 'Linux/Unix' tab, then underneath click 'OS Only' then select 'Ubuntu 16.04 LTS'.
-//add jpg//</p>
+<p>Click on the 'Create Instance' tab and select 'Linux/Unix' tab, then underneath click 'OS Only' then select 'Ubuntu 16.04 LTS'.</p>
+![](/assets/img/posts/amazon_lightsail/create_instance.png "instance")
 
-<p>Choose your Instance plan, for this tutorial we will use the cheapest $3.50 per month plan.
-//add jpg//</p>
+<p>Choose your Instance plan, for this tutorial we will use the cheapest $3.50 per month plan.</p>
+![](/assets/img/posts/amazon_lightsail/choose_plan.png "amazon_lightsail")
 
-<p>Then finally scroll down the page and rename your Instance to 'Flask<em>Lightsail</em>Depoloyment' and click on the 'Create instance' button.
-//add jpg//</p>
+<p>Then finally scroll down the page and rename your Instance to 'Flask<em>Lightsail</em>Depoloyment' and click on the 'Create instance' button.</p>
+![](/assets/img/posts/amazon_lightsail/instance_name.png "amazon_lightsail")
 
 <p>## Step Three - create static IP to publicly access your Lightsail instance.</p>
 
-<p>Click the 'Home' button and then click on the 'Networking' tab and then click on the 'Create static IP' tab.
- //add jpg//</p>
+<p>Click the 'Home' button and then click on the 'Networking' tab and then click on the 'Create static IP' tab.</p>
+![](/assets/img/posts/amazon_lightsail/?.png "amazon_lightsail")
 
-<p>Scroll to the bottom of the page, rename your static IP and click the 'Create' button.
- //add jpg//</p>
+<p>Scroll to the bottom of the page, rename your static IP and click the 'Create' button.</p>
+![](/assets/img/posts/amazon_lightsail/create_static_ip.png "amazon_lightsail")
 
 <p>Make a note of your new static IP address and attach it to your Lightsail instance if not done so already (found on the Networking tab and by clicking on the three orange dots on the static IP address box, this will take you to a management screen where you can attach the IP to your Lightsail instance).</p>
 
 <p>## Allow Fire Wall access to public internet traffic.</p>
 
-<p>Click the 'Home' button and then click on the small three orange dots next to wear it says Flask<em>Lightsail</em>Instance. This will open up a dropdown menu. Select 'Manage' from this drop down menu.
-//add jpg//</p>
+<p>Click the 'Home' button and then click on the small three orange dots next to wear it says Flask<em>Lightsail</em>Instance. This will open up a dropdown menu. Select 'Manage' from this drop down menu.</p>
+![](/assets/img/posts/amazon_lightsail/three_dots.png "amazon_lightsail")
 
-<p>From the management screen you will be able to see your Public and Private Ip addresses, scroll down the page and you will see your Fire Wall section. Set your Fire Wall preferences for testing by inputing the below settings. This will allow all internet traffic to reach your Lightsail instance.
-//add jpg//</p>
+<p>From the management screen you will be able to see your Public and Private Ip addresses, scroll down the page and you will see your Fire Wall section. Set your Fire Wall preferences for testing by inputing the below settings. This will allow all internet traffic to reach your Lightsail instance.</p>
+![](/assets/img/posts/amazon_lightsail/firewall_settings.png "amazon_lightsail")
 
 <h2>Step Four - Setting up SSH</h2>
 
-<p>Finally, we will install our development stack by remotely logging onto our Lightsail instance via SSH. To do this we need to download our SSH private keypair.
-//add jpg//</p>
+<p>Finally, we will install our development stack by remotely logging onto our Lightsail instance via SSH. To do this we need to download our SSH private keypair.</p>
+![](/assets/img/posts/amazon_lightsail/ssh_key_tab.png "amazon_lightsail")
 
-<p>Click the 'Account' Tab at the top of the page. Then click on the 'SSH Keys' tab. If you have not done so already create a new key pair and rename it 'MyKeyPair', then click the download button to download to your local downloads folder.
-//add jpg// </p>
+<p>Click the 'Account' Tab at the top of the page. Then click on the 'SSH Keys' tab. If you have not done so already create a new key pair and rename it 'MyKeyPair', then click the download button to download to your local downloads folder.</p>
+![](/assets/img/posts/amazon_lightsail/account_tab.png "amazon_lightsail")
 
 <p>After you download the MyKeyPair.pem file, you will want to store your key in a secure location. If you lose your key, you won't be able to access your instance. If someone else gets access to your key, they will be able to access your instance.</p>
 
@@ -252,6 +252,7 @@ Unpact the tar file.
 <p>Enter the following text into the file, save and close.</p>
 
 <p><code>
+
 from flask import Flask
 app = Flask(<strong>name</strong>)</p>
 
@@ -287,26 +288,24 @@ def hello():
 <p><code>sudo nano /etc/apache2/sites-available/FlaskApp.conf</code></p>
 
 <p>Enter the below text into the file then save and close.</p>
-
-<p>
-<code>&lt;VirtualHost *:80&gt;
+    Listen 80
+    <VirtualHost \*:80>
         ServerName 3.8.237.222
         ServerAdmin admin@mywebsite.com
         WSGIScriptAlias / /var/www/FlaskApp/flaskapp.wsgi
-        &lt;Directory /var/www/FlaskApp/FlaskApp/&gt;
+        <Directory /var/www/FlaskApp/FlaskApp/>
             Order allow,deny
             Allow from all
-        &lt;/Directory&gt;
+        </Directory>
         Alias /static /var/www/FlaskApp/FlaskApp/static
-        &lt;Directory /var/www/FlaskApp/FlaskApp/static/&gt;
+        <Directory /var/www/FlaskApp/FlaskApp/static/>
             Order allow,deny
             Allow from all
-        &lt;/Directory&gt;
+            </Directory>
         ErrorLog ${APACHE_LOG_DIR}/error.log
         LogLevel info
         CustomLog ${APACHE_LOG_DIR}/access.log combined
-&lt;/VirtualHost&gt;
-</code></p>
+    </VirtualHost>
 
 <p>Enable your new FlaskApp configuration.</p>
 
@@ -322,18 +321,18 @@ def hello():
 
 <p>Enter the below text into the file, save and close.</p>
 
-<p>```</p>
+</p>
 
-<h1>!/usr/bin/python</h1>
+    !/usr/bin/python</h1>
 
-<p>import sys
-import logging
-logging.basicConfig(stream=sys.stderr)
-sys.path.insert(0,"/var/www/FlaskApp/")</p>
+    import sys
+    import logging
+    logging.basicConfig(stream=sys.stderr)
+    sys.path.insert(0,"/var/www/FlaskApp/")
 
-<p>from FlaskApp import app as application
-application.secret_key = 'Add your secret key'
-```</p>
+    from FlaskApp import app as application
+    application.secret_key = 'Add your secret key'
+</p>
 
 <p>Restart the Apache2 server.</p>
 
