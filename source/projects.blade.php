@@ -15,7 +15,7 @@
         <div class="my-8">
           <h2 class="mb-2">reddit-top-posts</h2>
           <a
-          href="http://gavinmarsh.co.uk:8000"
+          href="http://gavinmarsh.io:8000"
           class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 my-2 px-3 pt-px"
           >
           App
@@ -28,12 +28,12 @@
         </div>
 
         <div class="my-8">
-          <h2 class="mb-2">rex</h2>
+          <h2 class="mb-2">Sales Referral Exchange (REX)</h2>
             <a
-            href="http://gavinmarsh.co.uk:9000/"
+            href="http://gavinmarsh.io:9000/"
             class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 my-2 px-3 pt-px"
             >
-            Repo/App
+            App
             </a>
           <p>
               This is web-app to aid in enterprise-sales. The application is called
