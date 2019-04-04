@@ -14,8 +14,6 @@ featured: true
 
 <h2>Introduction</h2>
 
-<p>Warning this is a long form article, if short on time read the summary at the end or subscribe to my email for short form content</p>
-
 <p><em>“Why do the rich keep getting richer?”</em>
 <em>“Why do I not have any free money to invest in the new stock or fad everyone is talking about?”</em>
 <em>“Why am I always broke? goddamnit?”</em></p>
@@ -37,7 +35,7 @@ Curious about learning trading strategies used by professionals?</p>
 
 <h2>My background</h2>
 
-<p>I live in Westminster London. I have been a full-time domestic trader for over 13 years. Nobody gave me a loan and my mommy and daddy didn’t leave me an estate. I’ve used my own capital since day 1.</p>
+<p>I live in Westminster London. I have been a domestic trader in my spare time for over 13 years. Nobody gave me a loan and my mommy and daddy didn’t leave me an estate. I’ve used my own capital since day 1, over those years i've obviously made countless mistakes and lost more money than I could have probably spared at the time. I've blown two sizeable (five figure) trading accounts and felt the real pain of losing real hard earned money but from those early loses and mistakes I have learnt to become a proficient and successful trader/investor. These articles are my best effort to pass those lessons on, not from a pedestal or a position of superiority, but from a humble place, where the scars of my failings still remind me daily to apply my full attention while making trading and investments decisions.</p>
 
 <p>I won't lie and tell you that it was easy from the beginning. I was scared to death to make my first trade back in September 2006. Even though I lost a little money, I was instantly hooked, the gamblers curse i guess. </p>
 

@@ -17,9 +17,9 @@
 
     <h1 >I'm Gavin: Sales manager + developer of useful tools.</h1>
 
-    <p>Currently, I run gamification sales at <a href="https://www.noblesystems.com/">Noble Systems</a>.</p>
+    <p>Currently, I run gamification sales at <a href="https://www.noblesystems.com/solutions/call-center-gamification/">Noble Systems</a>.</p>
 
-    <p>I'm co-founding <a href="http://crypto-mars.com">Crypto Mars</a> an NPO to help educate new investors in the wild-west market of crypto.</p>
+    <p>I'm co-founding <a href="http://crypto-mars.com">Crypto Mars</a> as lead technical analyst to help educate new investors in the wild-west market of crypto.</p>
 
     <p>I publish <a href="/blog">articles</a> to document what I'm learning and you can always get my best stuff by signing up for 1 email per month below.</p>
 

@@ -7,13 +7,14 @@ description: Want to code but not sure how to start? Use this tried-and-true fra
 categories: [software]
 cover_image: /assets/img/posts/amazon_lightsail/feature.png
 ---
-<h1>Software</h1>
+<h1>Development Stack</h1>
 
 <h2>Introduction</h2>
 
 <p>Amazon Lightsail is intended for developing quickly and cheaply. In this tutorial I will walk through how to set up an Amazon Lightsail instance with Apache2, WSGI and Flask development stack for deploying a Flask web-application.</p>
 
-<h2>What the Red//make red// Means</h2>
+<h2>What the <font size="6" color="Red">Red</font> Means</h2>
+
 
 <p>Changes that the user needs to make or customise will be in red in this tutorial! The rest will mostly be copy-and-pastable. (shout out to Digital Ocean //link to digital ocean// for this tutorial format).</p>
 
@@ -34,17 +35,17 @@ cover_image: /assets/img/posts/amazon_lightsail/feature.png
 <p>Then finally scroll down the page and rename your Instance to 'Flask<em>Lightsail</em>Depoloyment' and click on the 'Create instance' button.</p>
 ![](/assets/img/posts/amazon_lightsail/instance_name.png "amazon_lightsail")
 
-<p>## Step Three - create static IP to publicly access your Lightsail instance.</p>
+<h2>Step Three - create static IP to publicly access your Lightsail instance.</h2>
 
 <p>Click the 'Home' button and then click on the 'Networking' tab and then click on the 'Create static IP' tab.</p>
-![](/assets/img/posts/amazon_lightsail/?.png "amazon_lightsail")
+![](/assets/img/posts/amazon_lightsail/create_static_ip.png "amazon_lightsail")
 
 <p>Scroll to the bottom of the page, rename your static IP and click the 'Create' button.</p>
-![](/assets/img/posts/amazon_lightsail/create_static_ip.png "amazon_lightsail")
+![](/assets/img/posts/amazon_lightsail/static_ip_name.png "amazon_lightsail")
 
 <p>Make a note of your new static IP address and attach it to your Lightsail instance if not done so already (found on the Networking tab and by clicking on the three orange dots on the static IP address box, this will take you to a management screen where you can attach the IP to your Lightsail instance).</p>
 
-<p>## Allow Fire Wall access to public internet traffic.</p>
+<h2> Step Four - Allow Fire Wall access to public internet traffic.</h2>
 
 <p>Click the 'Home' button and then click on the small three orange dots next to wear it says Flask<em>Lightsail</em>Instance. This will open up a dropdown menu. Select 'Manage' from this drop down menu.</p>
 ![](/assets/img/posts/amazon_lightsail/three_dots.png "amazon_lightsail")
@@ -52,7 +53,7 @@ cover_image: /assets/img/posts/amazon_lightsail/feature.png
 <p>From the management screen you will be able to see your Public and Private Ip addresses, scroll down the page and you will see your Fire Wall section. Set your Fire Wall preferences for testing by inputing the below settings. This will allow all internet traffic to reach your Lightsail instance.</p>
 ![](/assets/img/posts/amazon_lightsail/firewall_settings.png "amazon_lightsail")
 
-<h2>Step Four - Setting up SSH</h2>
+<h2>Step Five - Setting up SSH</h2>
 
 <p>Finally, we will install our development stack by remotely logging onto our Lightsail instance via SSH. To do this we need to download our SSH private keypair.</p>
 ![](/assets/img/posts/amazon_lightsail/ssh_key_tab.png "amazon_lightsail")
@@ -95,7 +96,7 @@ Use the chmod command to make sure your private key file is not publicly viewabl
 
 <p>You should then see the welcome screen for your instance and you are now connected to your Amazon Lightsail Ubuntu 16.04 virtual machine in the cloud.</p>
 
-<h2>Step Five - Install Apache2</h2>
+<h2>Step Six - Install Apache2</h2>
 
 <p>Update the apt package.</p>
 
@@ -131,7 +132,7 @@ Use the chmod command to make sure your private key file is not publicly viewabl
 Example:
 <code>ServerName 3.8.237.222</code></p>
 
-<h2>Step Six - Install Python3.7.1</h2>
+<h2>Step Seven - Install Python3.7.1</h2>
 
 <p>Update apt install package.</p>
 
@@ -149,7 +150,7 @@ Example:
 
 <p><code>sudo apt install python3.7</code></p>
 
-<h2>Install WSGI.</h2>
+<h2>Step Eight - Install WSGI.</h2>
 
 <p>Download WSGI tar file.</p>
 
@@ -203,7 +204,7 @@ Unpact the tar file.
 
 <p><code>sudo /etc/init.d/apache2 restart</code></p>
 
-<h2>Step Seven - Prepare server for new 'Hello World' FlaskApp.</h2>
+<h2>Step Nine - Prepare server for new 'Hello World' FlaskApp.</h2>
 
 <p>Deactivate default apache2 website.
 <code>sudo a2dissite 000-default.conf</code></p>
@@ -216,7 +217,7 @@ Unpact the tar file.
 
 <p><code>rm 000-default.conf</code></p>
 
-<h2>Step Eight - Create a Flask application</h2>
+<h2>Step Ten - Create a Flask application</h2>
 
 <p>Change directory into Ubuntu's standard Website directory.
 <code>cd /var/www</code></p>
