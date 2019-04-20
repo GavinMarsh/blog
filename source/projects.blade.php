@@ -15,13 +15,13 @@
         <div class="my-8">
           <h2 class="mb-2">reddit-top-posts</h2>
           <a
-          href="http://gavinmarsh.io:8000"
+          href="http://gavinmarsh.io:8000/sub"
           class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 my-2 px-3 pt-px"
           >
           App
           </a>
           <p>
-              A Flask web-app coded in Python that uses Reddits api to collect top weekly posts of my faverioute topics.
+              A Flask web-app that uses Reddits api to collect top weekly posts of my faverioute topics.
               The application uses a MVC setup. The model being a MongoDB Atlas collection for data storage,
               the view is handled but the Jinja2 library with Flask and the Controller is pure python code.
           </p>

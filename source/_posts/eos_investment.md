@@ -45,7 +45,7 @@ Brendan has had multiple companies in Hong-Kong (starting at the tender age of j
 Which is a key skill when speaking to hungry investors looking to jump on the Blockchain bandwagon.
 
 ##Reason five - EOS Price is currently in a downtrend
-At the time of writing this post (2nd September 2017), the price of EOS is at £1.09 ($1.40) per token down from it’s all time high to date of £3.36 ($4,31) back on July 3rd 2017. It has been in a strong bear trend for just over a week. There is also a clear downward trend line on most price-chart time frames. EOS token can be purchased on the [Bitfinex](https://www.bitfinex.com/) exchange. For USA citizens you may like to read this article [How to purchase a VPN with SBD.](https://steemit.com/bitcoin/@kingscrown/guide-how-to-buy-vpn-or-anything-else-directly-with-sbd)
+At the time of writing this post (2nd September 2017), the price of EOS is at £1.09 ($1.40) per token. It has been in a strong bear trend for just over a week. There is also a clear downward trend line on most price-chart time frames. EOS token can be purchased on the [Bitfinex](https://www.bitfinex.com/) exchange. For USA citizens you may like to read this article [How to purchase a VPN with SBD.](https://steemit.com/bitcoin/@kingscrown/guide-how-to-buy-vpn-or-anything-else-directly-with-sbd)
 
 
 ##Summary
