@@ -38,7 +38,7 @@
           <p>
               This is prototype web-app coded in Python to aid in enterprise-sales. The application is called
               The Referral Exchange (REX for short). It is a platform for sales
-              professionals to share meeting referals.
+              professionals to share meeting referals. Release date May 2019.
           </p>
         </div>
         <p class="text-3xl">
