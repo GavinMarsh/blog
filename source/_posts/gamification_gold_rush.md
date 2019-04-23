@@ -37,8 +37,7 @@ The dynamic chart above allows you to compare the adoption rates of new technolo
 <h2>How this relates to Contact Centers</h2>
 <p>To understand the full impact of the above chart with regards to the current Contact-Center first mover advantage, it’s worth removing old technologies and focusing on how fast modern technologies like smartphones and Social media have been adopted, as infrastructure is removed and more software is introduced, speed of adoption increases.</p>
 
-<iframe class="my-4 block" width="560" height="315" src="https://www.youtube.com/embed/UyoKgLMTRqY
-" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="my-4 block" width="560" height="315" src="https://www.youtube.com/embed/UyoKgLMTRqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 It comes down to this, software is simply more malleable and Gamification software can be designed to mould around what keeps agents engaged today and tomorrow. The software moves with the agent instead of a fixed cumbersome antiquated solution, as the agents focus and ateention shifts due to our sociaties cahnges so too can gamification software be tweaks and refined (often in the space of minutes) to increase and maintain an agents attention to align with the greater company goals.
 
